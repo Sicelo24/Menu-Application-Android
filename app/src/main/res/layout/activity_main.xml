@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/amount2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="441dp"
+        android:text="@string/_2"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <ImageButton
+        android:id="@+id/doughnut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="136dp"
+        android:contentDescription="@string/doughnut"
+        app:srcCompat="@drawable/donut1_circle" />
+
+    <ImageButton
+        android:id="@+id/froyo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="339dp"
+        android:contentDescription="@string/froyo"
+        app:srcCompat="@drawable/froyo1_circle" />
+
+    <ImageButton
+        android:id="@+id/minus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="247dp"
+        android:contentDescription="@string/minus1"
+        app:srcCompat="@drawable/minusresized" />
+
+    <ImageButton
+        android:id="@+id/plus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="432dp"
+        android:contentDescription="@string/plus2"
+        app:srcCompat="@drawable/plusresized" />
+
+    <ImageButton
+        android:id="@+id/plus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="248dp"
+        android:contentDescription="@string/plus1"
+        app:srcCompat="@drawable/plusresized" />
+
+    <ImageButton
+        android:id="@+id/minus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="433dp"
+        android:contentDescription="@string/minus2"
+        app:srcCompat="@drawable/minusresized" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="511dp"
+        android:text="@string/order" />
+
+    <TextView
+        android:id="@+id/amount1"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="257dp"
+        android:text="@string/_1"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="62dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="153dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="138dp"
+        android:text="@string/donuts_are_glazed_and_sprinkled_with_candy" />
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="145dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="345dp"
+        android:text="@string/froyo_is_premium_self_serve_frozen_yogurt" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="137dp"
+        android:text="@string/r10"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/price2"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="336dp"
+        android:text="@string/r12"
+        android:textSize="24sp" />
+
+</RelativeLayout>
